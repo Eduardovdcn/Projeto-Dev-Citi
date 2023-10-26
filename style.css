@@ -1,0 +1,146 @@
+.line{
+    width: 75%;
+    border-bottom: 1px solid black;
+    position: absolute;
+    border-color: #25eabf;
+    }
+
+body{
+    background-color: #4dd2ee;
+}
+
+.content{
+    background-color: rgb(255, 255, 255);
+    margin-left: 12%;
+    margin-right: 12%;
+    border: 2px solid black;
+}
+
+.head{
+    background-color: #4dd2ee;
+    font-family:  'Public Sans', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 8px solid #25eabf;
+    border-radius: 12px;
+    width: 75%;
+}
+
+#get-more-info{
+    font-family:  'Public Sans', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 50%;
+}
+
+#dev-draw{
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+    height: 500px;
+}
+
+.presentation h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.presentation{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+
+}
+
+#about-me-container{
+    display: flex;
+    border: 3px solid black;
+    border-radius: 12px;
+    background-image: linear-gradient(#4dd2ee, #25eabf);
+}
+
+#profile-img{
+    background-image: linear-gradient(#4dd2ee, #25eabf);
+    border-radius: 50%;
+    padding: 10px;
+    max-width: 50%;
+    max-height: 420px;
+    flex:1
+}
+
+#profile-text{
+    font-family:BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:400;
+    font-size: 24px;
+    text-align: center;
+    max-width: 50%;
+    background-image: linear-gradient(#4dd2ee, #25eabf);
+    padding: 25px;
+    text-align: center;
+    color: black;
+    flex:1
+}
+
+.qualities{
+    display: flex;
+}
+
+#qualities-img{
+    background-image: linear-gradient(#4dd2ee, #25eabf);
+    border-radius: 50%;
+    padding: 4px;
+    max-width: 25%;
+    height: 80px;
+}
+
+#pragmatic{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 12px;
+    background-image: linear-gradient(#4dd2ee, #25eabf);
+    margin: 8px;
+}
+
+#communicative{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 12px;
+    background-image: linear-gradient(#4dd2ee, #25eabf);
+    margin: 8px;
+}
+
+#emphatic{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 12px;
+    background-image: linear-gradient(#4dd2ee, #25eabf);
+    margin: 8px;
+}
